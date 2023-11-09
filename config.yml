@@ -4,3 +4,7 @@ module:
       target: assets
     - source: static
       target: static
+
+params:
+  hero:
+    desktop: "636x"
