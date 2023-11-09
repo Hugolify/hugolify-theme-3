@@ -1,13 +1,13 @@
 .block-cta
-    background: $dark
-    color: $white
-    overflow: hidden
-    position: relative
-    .heading
-        p
-            font-size: $lead-font-size
+    &.block-bg
+        background: $dark
+        border: 0
+        color: $white
+        overflow: hidden
+        position: relative
+        .btn
+            color: white
     .btn
-        color: white
         @if variable-exists(bootstrap-icons-map)
             &::before
                 @include icon("arrow-right-short")
@@ -20,3 +20,6 @@
                         transform: translateX(.3rem)
                 &::before
                     transition: transform $transition-duration $transition-effect
+    .heading
+        p
+            font-size: $lead-font-size
