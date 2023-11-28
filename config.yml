@@ -9,7 +9,7 @@ module:
 
 params:
   hero:
-    desktop: "636x"
+    desktop: '636x'
   posts:
     thumbnail:
-      desktop: "416x275"
+      desktop: '416x275'
