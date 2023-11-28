@@ -14,3 +14,10 @@
         &:hover
             color: $pagination-color
             text-decoration-color: inherit
+
+    &-with-title
+        --bs-pagination-hover-bg: #{$light}
+        a
+            transition: background .3s ease
+            &:hover
+                text-decoration-line: none

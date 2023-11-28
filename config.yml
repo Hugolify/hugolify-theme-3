@@ -2,9 +2,14 @@ module:
   mounts:
     - source: assets
       target: assets
+    - source: layouts
+      target: layouts
     - source: static
       target: static
 
 params:
   hero:
     desktop: "636x"
+  posts:
+    thumbnail:
+      desktop: "416x275"
