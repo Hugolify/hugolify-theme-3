@@ -13,3 +13,5 @@ params:
   posts:
     thumbnail:
       desktop: '416x275'
+      mobile: '300x198'
+      scrollsnap: '240x176'
